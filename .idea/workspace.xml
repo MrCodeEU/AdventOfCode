@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e42c81bf-2810-4b25-9ebc-ac7726c76808" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day2/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day2/part2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day3/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day3/part1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day3/part2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day2/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Day2/part1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +57,7 @@
       <workItem from="1670094519148" duration="3276000" />
       <workItem from="1670398213829" duration="20000" />
       <workItem from="1670398248493" duration="1057000" />
-      <workItem from="1670413501721" duration="4530000" />
+      <workItem from="1670413501721" duration="5018000" />
     </task>
     <task id="LOCAL-00001" summary="Completed Day1">
       <created>1670097678476</created>
@@ -71,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670097678476</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Completed Day3 part 1">
+      <created>1670418165782</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670418165782</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +81,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed Day1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Day1" />
+    <MESSAGE value="Completed Day3 part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Day3 part 1" />
   </component>
 </project>
