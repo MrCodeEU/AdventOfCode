@@ -3,7 +3,7 @@ package Day5
 import java.io.File
 
 fun main() {
-    val lines = File("src/main/kotlin/Day5/input1.txt").readLines()
+    val lines = File("src/main/kotlin/Day5/input1.txt.txt").readLines()
     val cargoInput = lines.filter { it.isNotEmpty() && it[0] != 'm' && it[1] != '1' }
     val moveInput = lines.filter { it.isNotEmpty() && it[0] == 'm' && it[1] != '1' }
     val cargoAmount = lines.find { it[1] == '1' }?.max().let { if (it == null) 0 else Character.digit(it, 10) }

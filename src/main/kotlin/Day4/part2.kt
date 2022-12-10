@@ -3,7 +3,7 @@ package Day4
 import java.io.File
 
 fun main() {
-    println(File("src/main/kotlin/Day4/input1.txt").readLines().map {
+    println(File("src/main/kotlin/Day4/input1.txt.txt").readLines().map {
         val line = it.split(",")
         val range1 = line[0].split("-")
         val range2 = line[1].split("-")

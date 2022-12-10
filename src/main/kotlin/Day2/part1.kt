@@ -4,7 +4,7 @@ import java.io.File
 import java.lang.Error
 
 fun main() {
-    println(File("src/main/kotlin/Day2/input1.txt").readLines().sumOf { it.getScore() })
+    println(File("src/main/kotlin/Day2/input1.txt.txt").readLines().sumOf { it.getScore() })
 }
 
 fun Char.getScore(): Int {
