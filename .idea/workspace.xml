@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e42c81bf-2810-4b25-9ebc-ac7726c76808" name="Changes" comment="Day 14 completed">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day15/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day15/part1.kt" afterDir="false" />
+    <list default="true" id="e42c81bf-2810-4b25-9ebc-ac7726c76808" name="Changes" comment="!!Possible Rollback!! Day 15 part 1 first try solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day15/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Day15/part1.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
       <workItem from="1671001918815" duration="676000" />
       <workItem from="1671218371162" duration="3344000" />
       <workItem from="1671221759121" duration="4617000" />
-      <workItem from="1671457099431" duration="14638000" />
+      <workItem from="1671457099431" duration="17002000" />
     </task>
     <task id="LOCAL-00001" summary="Completed Day1">
       <created>1670097678476</created>
@@ -159,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671466434407</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="!!Possible Rollback!! Day 15 part 1 first try solution">
+      <created>1671477679453</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671477679453</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +194,8 @@
     <MESSAGE value="Day 11 completed" />
     <MESSAGE value="Day 13 completed" />
     <MESSAGE value="Day 14 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 14 completed" />
+    <MESSAGE value="!!Possible Rollback!! Day 15 part 1 first try solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="!!Possible Rollback!! Day 15 part 1 first try solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

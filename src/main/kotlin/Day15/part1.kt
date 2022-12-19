@@ -22,30 +22,43 @@ fun main() {
     val minX = min(input.minOf { it.first.first }, input.minOf { it.second.first })
     val minY = min(input.minOf { it.first.second }, input.minOf { it.second.second })
     val sum = mutableSetOf<Pair<Int, Int>>()
-    for ((i, sensor) in sensors.withIndex()) {
-        println("Sensor ${i+1} / ${sensors.size}")
-        if (sensor.first == 2000000) sum.add(sensor)
-        var notFound = true
-        var n = 1
-        while (notFound) {
-            println("\tDistance: $n")
-            // distance = |x1-x2|+|y1-y1|
-            // idea set distance to 1 check all possible x2y2 from x1y1 Sensor
-            // if no B found increase distance by 1
-            // idea is studip way to slow. change to getting the distance of every beacon
-            for (c in manhattanCoordinates(sensor.first, sensor.second, n)) {
-                if (beacons.contains(c)) {
-                    if (c.first == 2000000) sum.add(c)
-                    notFound = false
-                    break
-                } else {
-                    if (c.second in minY..maxY && c.first == 2000000) sum.add(c)
-                }
-            }
-            n++
+    for ((i,sensor) in sensors.withIndex()) {
+        println("Checking Sensor ${i+1} / ${sensors.size}")
+        // first calculate every Manhattan distance to beacon
+        val beaconDistances = mutableMapOf<Pair<Int, Int>, Int>()
+        for (beacon in beacons) {
+            beaconDistances[beacon] = beacon.manhattanDistance(sensor)
+        }
+        // second get all coords in range of this manhattan distance
+        // and get the smallest and biggest coords in row 2000000
+        // if there exists coords  add range to set of sum
+        val coords = manhattanCoordinates(sensor.first, sensor.second, beaconDistances.minOf { it.value })
+        val range = coords.filter { it.first == 2000000 }
+        if (range.size == 1) {
+            sum.add(range[0])
+        } else if (range.size == 2) {
+            sum.addAll((range[0]..range[1]).filter { it.second in (minY-1) until maxY })
         }
     }
-    println(sum.size)
+    sum.removeAll(beacons.toSet())
+    sum.addAll(sensors.filter { it.first == 2000000 })
+    print(sum.size)
+}
+
+private operator fun Pair<Int, Int>.rangeTo(pair: Pair<Int, Int>): Collection<Pair<Int, Int>> {
+    val list = mutableListOf<Pair<Int, Int>>()
+    for (x in if (this.first < pair.first) this.first..pair.first else pair.first..this.first) {
+        for (y in if (this.second < pair.second) this.second..pair.second else pair.second..this.second) {
+            list.add(Pair(x, y))
+        }
+    }
+    return list
+}
+
+fun Pair<Int, Int>.manhattanDistance(point2: Pair<Int, Int>): Int {
+    val xDistance = abs(this.first - point2.first)
+    val yDistance = abs(this.second - point2.second)
+    return xDistance + yDistance
 }
 
 fun manhattanCoordinates(x1: Int, y1: Int, n: Int): Set<Pair<Int, Int>> {
