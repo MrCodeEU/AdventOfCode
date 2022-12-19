@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e42c81bf-2810-4b25-9ebc-ac7726c76808" name="Changes" comment="Day 13 completed">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day14/input1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day14/part1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day14/part2.kt" afterDir="false" />
+    <list default="true" id="e42c81bf-2810-4b25-9ebc-ac7726c76808" name="Changes" comment="Day 14 completed">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day15/input1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day15/part1.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +73,7 @@
       <workItem from="1671001918815" duration="676000" />
       <workItem from="1671218371162" duration="3344000" />
       <workItem from="1671221759121" duration="4617000" />
-      <workItem from="1671457099431" duration="8508000" />
+      <workItem from="1671457099431" duration="14638000" />
     </task>
     <task id="LOCAL-00001" summary="Completed Day1">
       <created>1670097678476</created>
@@ -153,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671226394740</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Day 14 completed">
+      <created>1671466434407</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1671466434407</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +187,8 @@
     <MESSAGE value="Day 10 completed" />
     <MESSAGE value="Day 11 completed" />
     <MESSAGE value="Day 13 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 13 completed" />
+    <MESSAGE value="Day 14 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 14 completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -193,10 +200,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="JetRunConfigurationType">
-        <watch expression="left" language="kotlin" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
