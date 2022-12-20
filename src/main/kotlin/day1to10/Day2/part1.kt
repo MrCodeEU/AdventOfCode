@@ -1,4 +1,4 @@
-package Day2
+package day1to10.Day2
 
 import java.io.File
 import java.lang.Error

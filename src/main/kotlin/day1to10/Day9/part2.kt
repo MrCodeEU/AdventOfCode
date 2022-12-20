@@ -1,4 +1,4 @@
-package Day9
+package day1to10.Day9
 
 import java.io.File
 import kotlin.math.abs

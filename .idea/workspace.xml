@@ -4,9 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e42c81bf-2810-4b25-9ebc-ac7726c76808" name="Changes" comment="!!Possible Rollback!! Day 15 part 1 first try solution">
+    <list default="true" id="e42c81bf-2810-4b25-9ebc-ac7726c76808" name="Changes" comment="Day 15 solutions is wrong but test input works???">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day15/part2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day1/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day1/input1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day1/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day1/part1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day1/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day1/part2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day10/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day10/input1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day10/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day10/part1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day10/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day10/part2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day15/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Day15/part1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day2/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day2/input1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day2/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day2/part1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day2/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day2/part2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day3/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day3/input1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day3/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day3/part1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day3/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day3/part2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day4/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day4/input1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day4/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day4/part1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day4/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day4/part2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day5/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day5/input1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day5/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day5/part1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day5/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day5/part2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day6/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day6/input1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day6/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day6/part1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day6/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day6/part2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day7/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day7/input1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day7/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day7/part1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day7/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day7/part2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day7/test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day7/test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day8/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day8/input1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day8/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day8/part1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day8/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day8/part2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day9/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day9/input1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day9/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day9/part1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day9/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day9/part2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +48,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -72,7 +104,8 @@
       <workItem from="1671001918815" duration="676000" />
       <workItem from="1671218371162" duration="3344000" />
       <workItem from="1671221759121" duration="4617000" />
-      <workItem from="1671457099431" duration="17002000" />
+      <workItem from="1671457099431" duration="17042000" />
+      <workItem from="1671526393531" duration="727000" />
     </task>
     <task id="LOCAL-00001" summary="Completed Day1">
       <created>1670097678476</created>
@@ -165,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671477679453</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Day 15 solutions is wrong but test input works???">
+      <created>1671480067167</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1671480067167</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,13 +235,14 @@
     <MESSAGE value="Day 13 completed" />
     <MESSAGE value="Day 14 completed" />
     <MESSAGE value="!!Possible Rollback!! Day 15 part 1 first try solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="!!Possible Rollback!! Day 15 part 1 first try solution" />
+    <MESSAGE value="Day 15 solutions is wrong but test input works???" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 15 solutions is wrong but test input works???" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/main/kotlin/Day5/part1.kt</url>
+          <url>file://$PROJECT_DIR$/src/main/kotlin/day1to10/Day5/part1.kt</url>
           <line>26</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>

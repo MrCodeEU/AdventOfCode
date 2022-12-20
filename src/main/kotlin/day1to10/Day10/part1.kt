@@ -1,4 +1,4 @@
-package Day10
+package day1to10.Day10
 
 import java.io.File
 var cycleNr = 0;

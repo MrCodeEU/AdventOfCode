@@ -1,4 +1,4 @@
-package Day7
+package day1to10.Day7
 
 import java.io.File
 

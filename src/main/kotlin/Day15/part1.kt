@@ -33,12 +33,14 @@ fun main() {
         // and get the smallest and biggest coords in row 2000000
         // if there exists coords  add range to set of sum
         val coords = manhattanCoordinates(sensor.first, sensor.second, beaconDistances.minOf { it.value })
-        val range = coords.filter { it.first == 2000000 }
+        //println("\t$coords")
+        sum += coords
+        /*val range = coords.filter { it.first == 2000000 }
         if (range.size == 1) {
             sum.add(range[0])
         } else if (range.size == 2) {
             sum.addAll((range[0]..range[1]).filter { it.second in (minY-1) until maxY })
-        }
+        }*/
     }
     sum.removeAll(beacons.toSet())
     sum.addAll(sensors.filter { it.first == 2000000 })
@@ -61,11 +63,15 @@ fun Pair<Int, Int>.manhattanDistance(point2: Pair<Int, Int>): Int {
     return xDistance + yDistance
 }
 
-fun manhattanCoordinates(x1: Int, y1: Int, n: Int): Set<Pair<Int, Int>> {
+fun manhattanCoordinates(x1: Int, y1: Int, n: Int, x: Int = 2000000): Set<Pair<Int, Int>> {
     val coordinates = mutableSetOf<Pair<Int, Int>>()
-    for (i in -n..n) {
-        coordinates.add(Pair(x1 + i, y1 + n - abs(i)))
-        coordinates.add(Pair(x1 + i, y1 - n + abs(i)))
+
+    // Calculate the possible y values for the given x value
+    val yLower = y1 - n + abs(x - x1)
+    val yUpper = y1 + n - abs(x - x1)
+    for (y in yLower..yUpper) {
+        coordinates.add(Pair(x, y))
     }
+
     return coordinates
 }
