@@ -4,41 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e42c81bf-2810-4b25-9ebc-ac7726c76808" name="Changes" comment="Day 15 solutions is wrong but test input works???">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Day15/part2.kt" afterDir="false" />
+    <list default="true" id="e42c81bf-2810-4b25-9ebc-ac7726c76808" name="Changes" comment="Day 15 part 1 finished and Packages restructured">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day1/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day1/input1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day1/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day1/part1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day1/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day1/part2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day10/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day10/input1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day10/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day10/part1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day10/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day10/part2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day15/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Day15/part1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day2/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day2/input1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day2/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day2/part1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day2/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day2/part2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day3/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day3/input1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day3/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day3/part1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day3/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day3/part2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day4/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day4/input1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day4/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day4/part1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day4/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day4/part2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day5/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day5/input1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day5/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day5/part1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day5/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day5/part2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day6/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day6/input1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day6/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day6/part1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day6/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day6/part2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day7/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day7/input1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day7/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day7/part1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day7/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day7/part2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day7/test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day7/test.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day8/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day8/input1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day8/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day8/part1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day8/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day8/part2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day9/input1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day9/input1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day9/part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day9/part1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day9/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/day1to10/Day9/part2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Day15/part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Day15/part2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,21 +36,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/JKU/3_2022WS/Algorithmen und Datenstrukturen 2/Übung 5&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowGit.ShowToolbar": "false",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/JKU/3_2022WS/Algorithmen und Datenstrukturen 2/Übung 5",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\JKU\3_2022WS\Kotlin\AdventOfCode\src\main\kotlin\Day5" />
@@ -106,6 +76,7 @@
       <workItem from="1671221759121" duration="4617000" />
       <workItem from="1671457099431" duration="17042000" />
       <workItem from="1671526393531" duration="727000" />
+      <workItem from="1671527153986" duration="4033000" />
     </task>
     <task id="LOCAL-00001" summary="Completed Day1">
       <created>1670097678476</created>
@@ -205,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671480067167</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Day 15 part 1 finished and Packages restructured">
+      <created>1671527416893</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671527416893</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +214,8 @@
     <MESSAGE value="Day 14 completed" />
     <MESSAGE value="!!Possible Rollback!! Day 15 part 1 first try solution" />
     <MESSAGE value="Day 15 solutions is wrong but test input works???" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 15 solutions is wrong but test input works???" />
+    <MESSAGE value="Day 15 part 1 finished and Packages restructured" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 15 part 1 finished and Packages restructured" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
